@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="en">
+<head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Contact — Web Bloom</title>
+<link rel="stylesheet" href="assets/style.css">
+<script defer src="assets/script.js"></script>
+</head>
+<body>
+<nav>
+  <a class="logo" href="index.html">Web Bloom</a>
+  <ul class="navlinks">
+    <li><a href="index.html">Home</a></li>
+    <li><a href="about.html">About</a></li>
+    <li><a href="services.html">Services</a></li>
+    <li><a href="portfolio.html">Portfolio</a></li>
+    <li><a href="contact.html">Contact</a></li>
+  </ul>
+</nav>
+
+<main class="container">
+  <section class="fade">
+    <h1>Contact</h1>
+    <p>Want to work together? Fill out this quick form and I’ll get back to you within 48 hours.</p>
+    <!-- Using Formspree free endpoint: replace FORM_ID with your form ID or use your own backend -->
+    <form action="https://formspree.io/f/your_form_id" method="POST">
+      <input type="text" name="name" placeholder="Full name" required>
+      <input type="email" name="email" placeholder="Email address" required>
+      <select name="service">
+        <option value="">Select a service</option>
+        <option value="design">Website Design</option>
+        <option value="ecommerce">E-commerce</option>
+        <option value="branding">Branding</option>
+        <option value="maintenance">Maintenance</option>
+      </select>
+      <textarea name="message" placeholder="Tell me about your project" required></textarea>
+      <button type="submit">Send Message</button>
+    </form>
+
+    <h2 style="margin-top:28px">Direct Contact</h2>
+    <p>Email: <a href="mailto:hello@webbloom.example">hello@webbloom.example</a></p>
+  </section>
+</main>
+
+<footer>© 2025 Web Bloom</footer>
+</body>
+</html>
